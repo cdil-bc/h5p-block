@@ -38,7 +38,7 @@ export default function Edit(props) {
       { ...useBlockProps({className: "my-awesome-class"}) } 
       value={url} 
       onChange={ (newUrl) => setAttributes({ url: newUrl }) }
-      placeholder="Enter URL here..."
+      placeholder="Enter H5P.com URL here..."
     />
   );
 }
