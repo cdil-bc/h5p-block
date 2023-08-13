@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "h5pblock/h5p-block",
+  "version": "0.1.0",
+  "title": "H5P.com Block",
+  "category": "widgets",
+  "attributes": {
+    "url": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "icon": "format-video",
+  "description": "Block for embedding H5P.com content",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "h5p-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

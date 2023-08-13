@@ -1,0 +1,1 @@
+console.log("Hello World! (from h5pblock-h5p-block block)");
