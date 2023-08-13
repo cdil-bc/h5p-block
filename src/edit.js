@@ -34,12 +34,14 @@ export default function Edit(props) {
   const { attributes, setAttributes } = props;
   const { url } = attributes;
   return (
+    <div>
     <PlainText 
       { ...useBlockProps({className: "my-awesome-class"}) } 
       value={url} 
       onChange={ (newUrl) => setAttributes({ url: newUrl }) }
       placeholder="Enter H5P.com URL here..."
     />
+    </div>
   );
 }
 
