@@ -40,7 +40,7 @@ add_action('enqueue_block_assets', 'enqueue_h5p_resizer');
 
 // Plugn Update Checker
 // https://github.com/YahnisElsts/plugin-update-checker/
-require 'path/to/plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
