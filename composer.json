@@ -1,0 +1,10 @@
+{
+    "name": "h5pblock/h5p-block",
+    "description": "Block for embedding H5P.com content",
+    "require": {
+      "php": "^7.3||^8.0"
+    },
+    "autoload": {
+      "psr-4": { "h5p-block\\h5p-block\\": "src/" }
+    }
+  }
